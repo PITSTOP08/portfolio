@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirby Dayondon | Digital Portfolio</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+  
+  <!-- External Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <nav class="nav-links left-links">
+        <a href="#about">About</a>
+        <a href="#customers">Customers</a>
+      </nav>
+      <nav class="nav-links right-links">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#customers" class="mobile-link">Customers</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-title-container">
+      <h1 class="hero-title">HI, I'M KIRBY</h1>
+    </div>
+
+    <div class="hero-avatar-wrapper">
+      <img src="AVATAR.png" alt="3D Avatar" class="hero-avatar float-animation" />
+    </div>
+
+    <div class="hero-bio">
+      <p>A Graphic Artist passionate about crafting bold and memorable projects.</p>
+    </div>
+
+    <div class="hero-cta">
+      <a href="#contact" class="gradient-button">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- Client Logos & Works Carousel Section -->
+  <section id="customers" class="customers-section">
+    <div class="container">
+      <h2 class="section-title text-center">CLIENT'S FEEDBACK</h2>
+    </div>
+    <div class="logos-grid">
+      <span>ICpEP.SE</span>
+      <span>ENGLISH COMMUNICATORS CLUB</span>
+      <span>ALGES</span>
+      <span>COLLEGE OF TEACHERS EDUCATION</span>
+      <span>SOCIAL SCIENTISTS SOCIETY</span>
+      <span>The Greener Future</span>
+    </div>
+
+    <div class="gallery-scroll">
+      <div class="gallery-card">
+        <img src="feedback/1.jpg" alt="Work 1" />
+      </div>
+      <div class="gallery-card">
+        <img src="feedback/2.jpg" alt="Work 2" />
+      </div>
+      <div class="gallery-card">
+        <img src="feedback/3.jpg" alt="Work 3" />
+      </div>
+      <div class="gallery-card">
+        <img src="feedback/4.jpg" alt="Work 4" />
+      </div>
+       <div class="gallery-card">
+        <img src="feedback/5.jpg" alt="Work 5" />
+      </div>
+       <div class="gallery-card">
+        <img src="feedback/6.jpg" alt="Work 6" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-section">
+    <div class="container-narrow">
+      <h2 class="section-title">ABOUT ME</h2>
+      <p class="about-text" id="about-text">
+        A 3rd year Computer Engineering student at La Salle University Ozamiz with hands-on experience in web development, software projects, technical support, and remote operations. Skilled in programming, responsive web design, team collaboration, Graphic design, and problem-solving. Experienced in delivering school-based web applications, managing digital workflows, and communicating effectively with clients and team members.
+      </p>
+      <p class="about-subtext">Let's create something awesome together.</p>
+      <div class="about-cta">
+        <a href="#contact" class="gradient-button">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section (Light Theme Accent) -->
+  <section class="services-section">
+    <div class="container">
+      <h2 class="section-title text-black">SERVICES</h2>
+      <div class="services-list">
+        
+        <div class="service-item">
+          <span class="service-number">01</span>
+          <div class="service-content">
+            <h3>GRAPHIC DESIGN</h3>
+            <p>Creating eye-catching digital graphics for social media, advertisements, posters, presentations, and promotional materials.</p>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <span class="service-number">02</span>
+          <div class="service-content">
+            <h3>BRANDING & LOGO</h3>
+            <p>Designing logos, color palettes, typography, and cohesive visual elements that create a strong and recognizable brand identity.</p>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <span class="service-number">03</span>
+          <div class="service-content">
+            <h3>DIGITAL CONTENT DESIGN</h3>
+            <p>Creating social media posts, banners, thumbnails, marketing materials, and other digital assets tailored for online platforms.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title">PROJECTS</h2>
+      
+      <!-- Project Card 1 (Shirt Design Grid) -->
+      <article class="project-card">
+        <div class="project-header">
+          <div class="project-meta">
+            <span class="project-index">SHIRT DESIGN</span>
+            <span class="project-client">MY PREVIOUS WORKS</span>
+          </div>
+          <a href="#" class="pill-button">Live Project</a>
+        </div>
+
+        <div class="project-media-grid">
+          <div class="project-img-wrapper">
+            <img src="CTE Panaghugpong.png" alt="CTE Panaghugpong Shirt Design" class="zoomable-img" />
+          </div>
+          <div class="project-img-wrapper">
+            <img src="cte sss.png" alt="CTE SSS Shirt Design" class="zoomable-img" />
+          </div>
+          <div class="project-img-wrapper">
+            <img src="sample layout.png" alt="Sample Layout Shirt Design" class="zoomable-img" />
+          </div>
+          <div class="project-img-wrapper">
+            <img src="CTE ENGLISH MAJOR-Recovered6.png" alt="CTE English Major Shirt Design" class="zoomable-img" />
+          </div>
+          <div class="project-img-wrapper">
+            <img src="FOR EXPORTING DESIGN 3.png" alt="Exporting Design 3 Shirt" class="zoomable-img" />
+          </div>
+          <div class="project-img-wrapper">
+            <img src="sample mockup.png" alt="Sample Mockup Shirt Design" class="zoomable-img" />
+          </div>
+          <div class="project-img-wrapper">
+            <img src="T-Shirt Mockup Templwate.png" alt="T-Shirt Mockup Template" class="zoomable-img" />
+          </div>
+          <div class="project-img-wrapper">
+            <img src="622878695_4245528409020581_5442933705849801247_n.png" alt="Custom Jersey Shirt Design" class="zoomable-img" />
+          </div>
+          <div class="project-img-wrapper">
+            <img src="Final Dark Navy Blue 2.png" alt="Final Dark Navy Blue Shirt Design" class="zoomable-img" />
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Contact Form Section (Light Theme Accent) -->
+  <section id="contact" class="contact-section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <h2 class="contact-title">LET'S GET IN TOUCH</h2>
+        <a href="mailto:kirby.dayondon@lsu.edu.ph" class="contact-email">kirby.dayondon@lsu.edu.ph</a>
+      </div>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Full Name *" required />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email *" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" placeholder="Phone" />
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" rows="4" placeholder="Message *" required></textarea>
+        </div>
+        <button type="submit" id="submit-btn" class="submit-button">Send</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h3>KIRBY<br>DAYONDON</h3>
+        <!-- Download Resume Button -->
+        <a href="feedback/Kirby-Dayondon_Resume_Revised.pdf" download="Kirby_Dayondon_Resume.pdf" class="resume-button">
+          Download My Resume
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Social</h4>
+          <ul>
+            <li><a href="https://www.instagram.com/sky.flakes_07/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61591456455864">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/kirby-dayondon">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>kirby.dayondon@lsu.edu.ph</p>
+          <p>+63 (975) 817 9054</p>
+          <address class="footer-address">
+            Valconcha Street, Aguada Pob.<br>
+            Ozamiz City, Misamis Occidental, Philippines
+          </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Full Image Zoom -->
+  <div id="image-lightbox" class="lightbox-modal" aria-hidden="true">
+    <span class="lightbox-close" id="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Zoomed View" />
+  </div>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
